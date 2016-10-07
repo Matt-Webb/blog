@@ -488,5 +488,75 @@
         "result": "1",
         "color": "W",
         "date": "15-11-2015"
+    },
+    {
+        "id": "153052F",
+        "name": "Palliser, Richard JD",
+        "title": "IM",
+        "event" : "Leeds League",
+        "grade": "218",
+        "result": "0",
+        "color": "W",
+        "date": "16-03-2016"
+    },
+    {
+        "id": "263867J",
+        "name": "Craft, Isaac",
+        "title": "",
+        "event" : "4NCL",
+        "grade": "196",
+        "result": "1",
+        "color": "B",
+        "date": "20-03-2016"
+    },
+    {
+        "id": "243671B",
+        "name": "Bak, Christopher",
+        "title": "",
+        "event" : "YCA IM Brown",
+        "grade": "177",
+        "result": "1",
+        "color": "B",
+        "date": "09-04-2016"
+    },
+    {
+        "id": "121008H",
+        "name": "Wall, Gavin",
+        "title": "IM",
+        "event" : "Country Championships",
+        "grade": "230",
+        "result": "1",
+        "color": "W",
+        "date": "11-06-2016"
+    },
+    {
+        "id": "110027A",
+        "name": "Eames, Robert S",
+        "title": "FM",
+        "event" : "Country Championships",
+        "grade": "210",
+        "result": "1",
+        "color": "W",
+        "date": "30-06-2016"
+    },
+    {
+        "id": "296672E",
+        "name": "Gantner, Matthias",
+        "title": "FM",
+        "event" : "Leeds League",
+        "grade": "215",
+        "result": "1",
+        "color": "W",
+        "date": "28-09-2016"
+    },
+    {
+        "id": "261060H",
+        "name": "Williams, Winston",
+        "title": "",
+        "event" : "Leeds Arjay",
+        "grade": "182",
+        "result": "1",
+        "color": "W",
+        "date": "05-10-2016"
     }
 ]

@@ -38,16 +38,16 @@
     } );
 
     // toggle boxes:
-    $scope.showResults = false;
-    $scope.toggleResultIcon = 'fa-plus-square-o';
+    $scope.showResults = true;
+    $scope.toggleResultIcon = 'fa-minus-square-o';
 
     $scope.toggleResults = function () {
       $scope.showResults = !$scope.showResults;
       $scope.toggleResultIcon = $scope.showResults ? 'fa-minus-square-o' : 'fa-plus-square-o';
     };
 
-    $scope.showAchievements = false;
-    $scope.toggleAchievementIcon = 'fa-plus-square-o';
+    $scope.showAchievements = true;
+    $scope.toggleAchievementIcon = 'fa-minus-square-o';
 
     $scope.toggleAchievements = function () {
       $scope.showAchievements = !$scope.showAchievements;

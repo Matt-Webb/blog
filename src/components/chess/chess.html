@@ -96,7 +96,7 @@
                               </th>
                               <th>
                                 <a ng-click="sortType = 'gameAge'; sortReverse = !sortReverse">
-                                Age (days)
+                                Age (days old)
                                 <span ng-show="sortType == 'gameAge' && !sortReverse" class="fa fa-caret-down"></span>
                                 <span ng-show="sortType == 'gameAge' && sortReverse" class="fa fa-caret-up"></span>
                                 </a>
@@ -106,14 +106,14 @@
                       <tbody>
                           <tr ng-repeat="player in (filteredResults = (tableData | orderBy: sortType:sortReverse | filter: searchPlayer ))">
                               <td><a target="_blank" href="http://www.ecfgrading.org.uk/new/menu.php?PlayerCode={{ player.id }}&file=player">{{ player.name }}</a></td>
-                              <td>{{ player.title }}</td>
-                              <td>{{ player.result }}</td>
-                              <td>{{ player.grade }}</td>
-                              <td>{{ player.color }}</td>
+                              <td class="text-center">{{ player.title }}</td>
+                              <td class="text-center">{{ player.result }}</td>
+                              <td class="text-center">{{ player.grade }}</td>
+                              <td class="text-center">{{ player.color }}</td>
                               <td>{{ player.event }}</td>
-                              <td>{{ eloMultipler * player.elo + eloIncriment }}</td>
-                              <td>{{ player.date | date }}</td>
-                              <td>{{ player.gameAge }}</td>
+                              <td class="text-center">{{ eloMultipler * player.elo + eloIncriment }}</td>
+                              <td class="text-center">{{ player.date | date }}</td>
+                              <td class="text-center">{{ player.gameAge }}</td>
                           </tr>
                       </tbody>
                     </table>
@@ -155,13 +155,13 @@
                                   </tr>
                                   <tr>
                                     <th scope="row">International Master (IM)</th>
+                                    <td>4</td>
+                                    <td>2</td>
                                     <td>3</td>
-                                    <td>2</td>
-                                    <td>2</td>
                                   </tr>
                                   <tr>
                                     <th scope="row">Fide Master (FM)</th>
-                                    <td>4</td>
+                                    <td>6</td>
                                     <td>1</td>
                                     <td>0</td>
                                   </tr>
