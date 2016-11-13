@@ -4,8 +4,8 @@
 
   app.controller( 'webbChessController', function ( $scope, $http, $filter ) {
 
-
     // https://jsfiddle.net/t3f2ybfr/
+    // TODO: switch to use $http
     $.get( 'data/results.json', function ( data ) {
       // array to enable me to create js date object for correct table sorting:
       $scope.tableData = [];
