@@ -2,7 +2,7 @@
 
   "use strict";
 
-  app.controller( 'webbHomeController', function( $scope ) {
+  app.controller( 'HomeController', function( $scope ) {
 
   });
 
