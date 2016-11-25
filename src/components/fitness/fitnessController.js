@@ -2,7 +2,7 @@
 
   "use strict";
 
-  app.controller( 'webbFitnessController', function ( $scope ) {
+  app.controller( 'FitnessController', function ( $scope ) {
 
 
   } );
