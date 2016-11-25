@@ -2,7 +2,7 @@
 
   "use strict";
 
-  app.controller( 'webbChessController', function ( $scope, $http, $filter ) {
+  app.controller( 'ChessController', function ( $scope, $http, $filter ) {
 
     // https://jsfiddle.net/t3f2ybfr/
     // TODO: switch to use $http
