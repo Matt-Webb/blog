@@ -6,31 +6,31 @@
       url: "/",
       config: {
         templateUrl: "src/components/home/home.html",
-        controller: "webbHomeController"
+        controller: "HomeController"
       }
     }, {
       url: "/projects",
       config: {
         templateUrl: "src/components/projects/projects.html",
-        controller: "webbBodyController"
+        controller: "BodyController"
       }
     }, {
       url: "/chess",
       config: {
         templateUrl: "src/components/chess/chess.html",
-        controller: "webbChessController"
+        controller: "ChessController"
       }
     }, {
       url: "fitness",
       config: {
         templateUrl: "src/components/fitness/fitness.html",
-        controller: "webbFitnessController"
+        controller: "FitnessController"
       }
     }, {
       url: "/contact",
       config: {
         templateUrl: "src/components/contact/contact.html",
-        controller: "webbBodyController"
+        controller: "BodyController"
       }
     } ];
 
@@ -40,7 +40,7 @@
 
     $routeProvider.otherwise( "/404", {
       templateUrl: "src/components/home/home.html",
-      controller: "webbHomeController"
+      controller: "HomeController"
     } );
 
   } ] );
